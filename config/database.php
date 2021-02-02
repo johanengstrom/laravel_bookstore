@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),  //Ändra pgsql -> mysql för lokal miljö
+    'default' => env('DB_CONNECTION'),  //Ändra pgsql -> mysql för lokal miljö
 
     /*
     |--------------------------------------------------------------------------
